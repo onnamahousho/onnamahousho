@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <script>function loveCal(){
+    var firstName=prompt("your name?");
+    var partnerName=prompt("your parter name");
+
+    var n= Math.random();
+    n=Math.floor(n*100+1);
+    alert(firstName + " loves " + partnerName + " "+n+ "%");
+}
+loveCal();</script>
+   <script>
+  function bmiCalculator(weight,height){
+  var weight= prompt("What is your weight in KG");
+  var height=prompt("Whatis your height in Meters");
+    var bmi=Math.floor(weight/ Math.pow(height,2));
+     
+     if (bmi <18.5){
+         alert("Your BMI is " + bmi +", so you are underweight");
+     }if (bmi >=18.5 && bmi <= 24.9) {
+          alert("Your BMI is " + bmi +", you have a normal weight");
+     }if (bmi>24.9){
+          alert("Your BMI is " + bmi +", so you are overweight");
+     }
+}
+bmiCalculator();
+     </script>
+
+<head>
+  <meta charset="utf-8">
+  <title>AL-Rahma Mount NGO</title>
+  <!-- Google font -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font Awesome  -->
+  <script src="https://kit.fontawesome.com/81fff8dba1.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="Logo.jpg">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="heading">
+    <div class="row">
+      <div class="col-lg-2">
+
+
+      </div>
+      <div class="col-lg-8">
+        <img class="logo" src="Logo.jpg" alt="Logo">
+        <h1>منظمة جبل <span>الرحمة </span> الإنسانية </h1>
+        <h1 class="name">Mount<span>Al-Rahma</span> Humanitarian Organization</h1>
+        <p class="proverb">الإنسان قبل كل شيء ... ننطلق منه و نعود اليه</p>
+      </div>
+      <div class="col-lg-2">
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="heading-btn">
+    <div class="row">
+      <div class="">
+        <a class="nav-link" href="#footer"><button type="button" class="btn btn-primary btn-lg">التعريف</button></a>
+
+      </div>
+      <div class="">
+        <a class="nav-link" href="#cta"> <button type="button" class="btn btn-primary btn-lg">الوثائق</button></a>
+
+      </div>
+      <div class="">
+        <a class="nav-link" href="#cta"> <button type="button" class="btn btn-primary btn-lg">التقارير</button></a>
+
+      </div>
+
+      <div class="">
+        <a class="nav-link" href="#cta"> <button type="button" class="btn btn-primary btn-lg">المقترحات</button></a>
+
+      </div>
+      <div class="">
+        <a class="nav-link" href="#cta"> <button type="button" class="btn btn-primary btn-lg">مشاريع تحتاج الى التمول و الدعم</button></a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+
+  <section class="projects">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-4">
+        <div class="">
+          <div class="dropdown dropleft">
+            <button class="main-button btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              المشاريع
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">الطفولة و الأرامل </a>
+              <a class="dropdown-item" href="#">الطوارئ</a>
+              <a class="dropdown-item" href="#">الحملات</a>
+              <a class="dropdown-item" href="#">الإغاثة (أغذية )</a>
+              <a class="dropdown-item" href="#">الإغاثة (غير أغذية )</a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="dropdown dropleft">
+            <button class="main-button btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              الخدمات
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">إعمار</a>
+              <a class="dropdown-item" href="#"> ماء</a>
+              <a class="dropdown-item" href="#">شبكات مياء</a>
+              <a class="dropdown-item" href="#"> ترميم</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-8 col-sm-8">
+        <div class="">
+          <section class="testimonials">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h6>“God does not look at your forms and possessions but he looks at your hearts and your deeds.”</h6>
+                  <img class="testimonial-image" src="Logo.jpg" alt="dog-profile">
+                  <em>Prophet Muhammad (PBUH)</em>
+                </div>
+                <div class="carousel-item">
+                  <h6 class="testimonial-text"> “The greatest of richness is the richness of the soul.” </h6>
+                  <img class="testimonial-image" src="Logo.jpg" alt="lady-profile">
+                  <em>Prophet Muhammad (PBUH)</em>
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Features -->
+
+
+
+  <!-- Press -->
+
+  <section class="press">
+    <h3>شركاء</h3>
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <a href="https://www.facebook.com/ihsan.dosky/" target="_blank"><i class="footer-icon fab fa-facebook-f"></i></a>
+    <a href="" target="_blank"><i class="footer-icon fab fa-instagram"></i></a>
+    <a href="mailto:ihsandosky@hotmail.com" target="_blank"><i class="footer-icon fas fa-envelope"></i></a>
+    <p> Copyright 2020© </p>
+    <p>منظمة جبل الرحمة الإنسانية </p>
+  </footer>
+
+
+</body>
+
+</html>

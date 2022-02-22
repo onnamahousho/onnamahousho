@@ -1,0 +1,120 @@
+body {
+  font-family: "Montserrat";
+  padding: 3% 2%;
+  background-color: #e7dec8;
+
+}
+
+
+
+.container-fluid {
+  padding: 3% 12% 3%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold"
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Secction */
+#heading {
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+span {
+  color: #0779e4;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+.proverb {
+  color: red;
+}
+
+.heading-btn {
+  padding-right: 20%;
+  margin-bottom: 50px;
+}
+
+/* Project Section */
+.projects{
+    background-color: #bedbbb;
+}
+.main-button {
+  margin-bottom: 100px;
+  margin-left: 100%;
+}
+
+
+/* Testimonials section*/
+.testimonials {
+  text-align: center;
+
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* press section */
+.press {
+  background-color: #bedbbb;
+  text-align: center;
+  padding-bottom: 3%;
+  margin-top: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-icon {
+  margin: 50px 10px;
+  color: black;
+}
+
+.footer-icon:hover {
+  color: #ff4c88;
+}
